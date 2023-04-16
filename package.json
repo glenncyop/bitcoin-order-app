@@ -24,7 +24,7 @@
     "@angular/pwa": "^0.803.29",
     "@angular/router": "~10.0.14",
     "@angular/service-worker": "~10.0.14",
-    "rxjs": "~6.6.2",
+    "rxjs": "~6.6.7",
     "tslib": "^1.13.0",
     "zone.js": "~0.10.3"
   },
