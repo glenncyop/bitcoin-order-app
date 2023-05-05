@@ -13,7 +13,7 @@ COPY . .
 
 RUN ng build --prod
 
-FROM nginx:latest
+FROM nginx:1-bullseye
 
 EXPOSE 80
 COPY --from=builder /app/dist/bitcoin /usr/share/nginx/html
